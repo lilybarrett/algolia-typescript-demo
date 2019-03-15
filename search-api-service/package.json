@@ -1,0 +1,13 @@
+{
+  "name": "search-api-service",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^11.11.3",
+    "algolia-sdk": "1.0.0",
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "ts-node": "^8.0.3"
+  }
+}
