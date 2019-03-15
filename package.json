@@ -1,0 +1,14 @@
+{
+  "name": "algolia-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "search-client",
+    "search-api"
+  ],
+  "dependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
+}

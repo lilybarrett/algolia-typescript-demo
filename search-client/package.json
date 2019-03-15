@@ -1,0 +1,9 @@
+{
+  "name": "search-client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "search-api": "1.0.0"
+  }
+}
