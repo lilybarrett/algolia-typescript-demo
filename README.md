@@ -1,0 +1,1 @@
+## Demo with TypeScript, Algolia, and Yarn Workspaces
