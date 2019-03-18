@@ -1,18 +1,15 @@
 {
-  "name": "algolia-sdk",
+  "name": "tasks",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
-    "dev": "ts-node index.ts"
+    "build-products": "cross-env ts-node -T ./jobs/build-products.ts"
   },
   "dependencies": {
     "@types/algoliasearch": "^3.30.7",
-    "@types/axios": "^0.14.0",
-    "@types/node": "^11.11.3",
     "algoliasearch": "^3.32.1",
     "algoliasearch-helper": "^2.26.1",
-    "axios": "^0.18.0",
     "cross-env": "^5.2.0",
-    "dotenv": "^7.0.0",
     "ts-node": "^8.0.3"
   }
 }

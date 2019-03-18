@@ -6,10 +6,12 @@
   "workspaces": [
     "search-client",
     "algolia-sdk",
-    "search-api-service"
+    "search-api-service",
+    "tasks"
   ],
   "dependencies": {
     "tslint": "^5.14.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "wsrun": "^3.6.4"
   }
 }

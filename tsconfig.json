@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "target": "es2017",
+      "target": "es5",
       "module": "commonjs",
       "jsx": "preserve",
       "moduleResolution": "node",
@@ -17,7 +17,7 @@
       "allowSyntheticDefaultImports": true,
       "allowJs": true,
       "lib": [
-        "es2017",
+        "es6",
         "dom"
       ]
     },

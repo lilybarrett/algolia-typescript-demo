@@ -2,12 +2,18 @@
   "name": "search-api-service",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "dev": "cross-env ts-node --project tsconfig.json server.ts"
+  },
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/node": "^11.11.3",
     "algolia-sdk": "1.0.0",
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
-    "ts-node": "^8.0.3"
+    "graphql-tag": "^2.10.1",
+    "graphql-yoga": "^1.17.4",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
   }
 }
