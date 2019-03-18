@@ -8,5 +8,5 @@
 **/**/.build/
 **/**/.cache/
 **/**/dist/
-**/**/schema/
+**/**/models/schema/
 .vscode/
