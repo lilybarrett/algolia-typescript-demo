@@ -4,14 +4,26 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "tsc"
+    "build": "tsc",
+    "apollo-schema": "apollo schema:download --config=apollo.service.config.js ./models/schema/schema.json",
+    "apollo-codegen": "apollo client:codegen ./models/schema --config=apollo.client.config.js --target=typescript --outputFlat",
+    "codegen": "yarn run apollo-schema && yarn run apollo-codegen",
+    "lint": "tslint -p .",
+    "fix": "tslint -p . --fix"
   },
   "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.2",
+    "apollo": "^2.6.2",
+    "apollo-boost": "^0.3.1",
+    "babel-plugin-emotion": "^10.0.9",
     "cross-env": "^5.2.0",
     "parcel-bundler": "^1.12.2",
     "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
     "react-dom": "^16.8.4",
     "react-hot-loader": "^4.8.0",
     "search-api-service": "1.0.0",
