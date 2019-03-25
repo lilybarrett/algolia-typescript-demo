@@ -29,7 +29,6 @@ export const ProductsPage = () => (
             if (loading) { return <p>Loading...</p>; }
             if (error) { return <p>{error.message}</p>; }
             if (!data) { return <p>No results...</p>; }
-            console.log(data);
             return (
                 <>
                     <h2>Algolia demo data for products</h2>
