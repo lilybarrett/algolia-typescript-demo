@@ -3,6 +3,7 @@ import { hot } from "react-hot-loader";
 import { render } from "react-dom";
 import ApolloClient, { InMemoryCache } from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
+import { CONFIG } from "./config";
 // import { ProductsPage } from "./scenes/products";
 import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
 
@@ -14,8 +15,8 @@ const client = new ApolloClient({
 const App: React.FC = () => (
     <ApolloProvider client={client}>
         <InstantSearch
-            apiKey="3e88a6d6d5359adf6336aaf33a6efc9b"
-            appId="FI4RGDZGXU"
+            apiKey={CONFIG.adminKey}
+            appId={CONFIG.appId}
             indexName="lily_demo_ecommerce">
             <SearchBox />
             <Hits />
